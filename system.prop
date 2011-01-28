@@ -1,6 +1,7 @@
 #
 # system.prop for ace
 #
+qemu.sf.lcd_density=240
 ro.sf.lcd_density=240
 
 debug.fb.rgb565=0

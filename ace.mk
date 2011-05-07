@@ -26,6 +26,7 @@ PRODUCT_COPY_FILES += \
 ## (1) First, the most specific values, i.e. the aspects that are specific to GSM
 
 PRODUCT_COPY_FILES += \
+    device/htc/ace/init.rc:root/init.rc \
     device/htc/ace/init.spade.rc:root/init.spade.rc \
     device/htc/ace/ueventd.spade.rc:root/ueventd.spade.rc
 

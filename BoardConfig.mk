@@ -41,6 +41,9 @@ BOARD_KERNEL_PAGE_SIZE := 4096
 # Workaround for Ace's broken overlay scaling
 BOARD_OVERLAY_MINIFICATION_LIMIT := 2
 
+BOARD_PREBUILT_LIBAUDIO := false
+BOARD_USE_BROADCOM_FM_VOLUME_HACK := false
+
 BOARD_VENDOR_QCOM_GPS_LOC_API_HARDWARE := spade
 
 # cat /proc/emmc
